@@ -1,42 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTAFOLIO</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camilo — Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header><CAMILO class="titulo">CAMILO</p>
-    <nav class="nav">
-    <a href="#">sobre mi</a>
-    <a href="#">contacto</a>
+
+  <header>
+    <span class="logo">ABOUT ME</span>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
     </nav>
-</header>
-   <main class="contenedor">
-    <h1>about me</h1>
-    <article class="tarjeta">
-        <div class="frente">
-            <div class="header-tarjeta"><h2>CAMILO</h2>
-            <img src="https://wallpapers4screen.com/Uploads/30-12-2025/96212/thumb2-batman-4k-minimalism-superheroes-creative.jpg" class="foto">
-            </div>
-            <section class="descripcion"><p>estudiante</p></section>
-            <footer class="pie-tarjeta">
-            <button class="btn">girar</button>
-            </footer>
+  </header>
+
+  <section class="im" id="inicio">
+    <p class="eyebrow">Portafolio — 2026</p>
+    <h1>I'm<br>Camilo</span></h1>
+    <p class="desc">
+      Estudiante de desarrollo de software con enfoque en crear experiencias web limpias y funcionales.
+      Actualmente formándome en RIWI y la Universidad de la Costa.
+    </p>
+    <a href="#about" class="btn">Más info</a>
+  </section>
+
+  <section id="about">
+    <div class="section-label">01 — Sobre mí</div>
+    <h2>¿Quién soy?</h2>
+    <div class="about-grid">
+      <div class="about-texto">
+        <p>
+          Hola, soy Camilo, un desarrollador en formación apasionado por el mundo del software.
+          Me encuentro en un proceso constante de aprendizaje, combinando mis estudios en RIWI
+          con mi carrera universitaria en la Universidad de la Costa.
+        </p>
+        <p>
+          Me interesa construir soluciones web accesibles, bien estructuradas y con buen diseño.
+          Creo que el código limpio y la atención al detalle hacen la diferencia entre algo funcional
+          y algo memorable.
+        </p>
+        <p>
+          Fuera del código me gusta aprender sobre tecnología, diseño y cómo las dos disciplinas
+          se encuentran para resolver problemas reales.
+        </p>
+      </div>
+      <div class="estudios">
+        <p class="estudios-label">Formación</p>
+        <div class="estudio-item">
+          <strong>RIWI</strong>
+          <span>Desarrollo de Software</span>
+          <time>2026 – presente</time>
         </div>
-        <div class="atras">
-            <div class="header-tarjeta"><h2>CAMILO</h2></div>
-            <section class="descripcion"><p>estudiante</p></section>
-            <footer class="pie-tarjeta">
-            <button class="btn">girar</button>
-            </footer>
+        <div class="estudio-item">
+          <strong>Universidad de la Costa</strong>
+          <span>Ingeniería de Sistemas</span>
+          <time>2024 – presente</time>
         </div>
-    </article>
-   </main>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="section-label">02 — Conocimientos</div>
+    <h2>Stack técnico</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-tag">Lenguaje de marcado</div>
+        <div class="skill-nombre">HTML</div>
+        <p>Estructuras semánticas, accesibilidad, formularios y buenas prácticas de marcado web.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-tag">Estilos</div>
+        <div class="skill-nombre">CSS</div>
+        <p>Diseño responsivo, Flexbox, Grid, variables CSS, animaciones y personalización avanzada.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-tag">Control de versiones</div>
+        <div class="skill-nombre">Git &amp; GitHub</div>
+        <p>Manejo de repositorios, commits, ramas, pull requests y flujo de trabajo colaborativo.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-tag">Programación</div>
+        <div class="skill-nombre">Python</div>
+        <p>Lógica de programación, scripting, automatización de tareas y estructuras de datos básicas.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="section-label">03 — Servicios</div>
+    <h2>Lo que ofrezco</h2>
+    <div class="servicios-grid">
+
+      <div class="servicio-card">
+        <div class="servicio-num">01</div>
+        <h3>Desarrollo Web</h3>
+        <p>
+          Creación de páginas web estáticas con HTML y CSS, priorizando diseño limpio,
+          velocidad de carga y compatibilidad entre navegadores.
+        </p>
+      </div>
+
+      <div class="servicio-card">
+        <div class="servicio-num">02</div>
+        <h3>Maquetación y diseño</h3>
+        <p>
+          Conversión de diseños en código funcional. Layouts responsivos que se adaptan
+          a cualquier dispositivo con atención al detalle visual.
+        </p>
+      </div>
+
+      <div class="servicio-card">
+        <div class="servicio-num">03</div>
+        <h3>Control de versiones</h3>
+        <p>
+          Gestión de proyectos con Git y GitHub. Historial limpio, trabajo en ramas
+          y colaboración ordenada en equipos de desarrollo.
+        </p>
+      </div>
+
+      <div class="servicio-card">
+        <div class="servicio-num">04</div>
+        <h3>Scripting con Python</h3>
+        <p>
+          Scripts de automatización, procesamiento de datos sencillos y lógica
+          de backend básica para tareas repetitivas.
+        </p>
+      </div>
+
+    </div>
+  </section>
+  <section id="contacto">
+    <div class="section-label">04 — Contacto</div>
+    <h2>Hablemos</h2>
+    <div class="contacto-box">
+      <p>
+        ¿Tienes un proyecto en mente o quieres saber más sobre mi trabajo?
+        Estoy disponible para oportunidades, colaboraciones y preguntas.
+      </p>
+      <div class="contacto-links">
+        <a href="https://github.com/" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="btn btn-outline">LinkedIn</a>
+        <a href="mailto:tucorreo@email.com" class="btn">Enviar correo</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Camilo</span>
+    <span>Todos los derechos reservados</span>
+  </footer>
+
 </body>
-<footer>
-    derechos reservados de autor
-</footer>
 </html>
